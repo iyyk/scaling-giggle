@@ -1,0 +1,47 @@
+img{
+    margin-top: 20px;
+  border-radius: 75px;
+
+}
+  h2{
+    font-size: 15px;
+    font-family: italic;
+  }
+  body{
+    background-color: rgb(215, 210, 206);
+    font-family: 'Trebuchet MS';
+    color: #190e18;
+    text-align: center;
+    
+  }
+  a{
+   border: 0cap;
+   border-radius: 100px ;
+   font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: #190e18;
+    padding: 10px;
+    text-decoration: none;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   transition: transform 0.5s ease;
+  
+  }
+  a:hover
+  {
+    color:  rgb(215, 210, 206); 
+    background-color: #190e18;
+    transform: scale(1.05);
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
